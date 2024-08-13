@@ -5,6 +5,7 @@ import ColorButtons from "./components/Inputs/Button/Color"
 import OutlinedButtons from "./components/Inputs/Button/Outlined"
 import TextButtons from "./components/Inputs/Button/Text"
 import Checkboxes from "./components/Inputs/Checkbox/Basic"
+import BoxBasic from "./components/Layouts/Box/Basic"
 
 
 
@@ -12,7 +13,7 @@ function App() {
 
   return (
     <>
-      <ColorButtons />
+      <BoxBasic/>
     </>
   )
 }
