@@ -8,6 +8,7 @@ import Checkboxes from "./components/Inputs/Checkbox/Basic"
 import BoxBasic from "./components/Layouts/Box/Basic"
 import BoxSystemProps from "./components/Layouts/Box/Custom1"
 import SimpleBottomNavigation from "./components/Navigation/BottomNav"
+import LabelBottomNavigation from "./components/Navigation/BottomNav2"
 
 
 
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
       <SimpleBottomNavigation/>
+      <LabelBottomNavigation/>
     </>
   )
 }
