@@ -9,6 +9,7 @@ import BoxBasic from "./components/Layouts/Box/Basic"
 import BoxSystemProps from "./components/Layouts/Box/Custom1"
 import SimpleBottomNavigation from "./components/Navigation/BottomNav"
 import LabelBottomNavigation from "./components/Navigation/BottomNav2"
+import FixedBottomNavigation from "./components/Navigation/BottomNav3"
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <>
       <SimpleBottomNavigation/>
       <LabelBottomNavigation/>
+      <FixedBottomNavigation/>
     </>
   )
 }
