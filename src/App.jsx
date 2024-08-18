@@ -6,6 +6,8 @@ import OutlinedButtons from "./components/Inputs/Button/Outlined"
 import TextButtons from "./components/Inputs/Button/Text"
 import Checkboxes from "./components/Inputs/Checkbox/Basic"
 import BoxBasic from "./components/Layouts/Box/Basic"
+import BoxSystemProps from "./components/Layouts/Box/Custom1"
+import SimpleBottomNavigation from "./components/Navigation/BottomNav"
 
 
 
@@ -13,7 +15,7 @@ function App() {
 
   return (
     <>
-      <BoxBasic/>
+      <SimpleBottomNavigation/>
     </>
   )
 }
