@@ -14,14 +14,14 @@ import Tabs1 from "./components/Navigation/Tabs/Tabs1"
 import Tabs2 from "./components/Navigation/Tabs/Tabs2"
 import Tabs3 from "./components/Navigation/Tabs/Tabs3"
 import Tabs4 from "./components/Navigation/Tabs/Tabs4"
+import Breadcrumbs1 from "./components/Navigation/Breadcrumbs/Breadcrumbs1"
 
 
 function App() {
 
   return (
     <>
-      <Tabs3/>
-      <Tabs4/>
+      <Breadcrumbs1/>
     </>
   )
 }
