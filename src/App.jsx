@@ -7,19 +7,21 @@ import TextButtons from "./components/Inputs/Button/Text"
 import Checkboxes from "./components/Inputs/Checkbox/Basic"
 import BoxBasic from "./components/Layouts/Box/Basic"
 import BoxSystemProps from "./components/Layouts/Box/Custom1"
-import SimpleBottomNavigation from "./components/Navigation/BottomNav"
-import LabelBottomNavigation from "./components/Navigation/BottomNav2"
-import FixedBottomNavigation from "./components/Navigation/BottomNav3"
-
+import SimpleBottomNavigation from "./components/Navigation/BottomNav/BottomNav"
+import LabelBottomNavigation from "./components/Navigation/BottomNav/BottomNav2"
+import FixedBottomNavigation from "./components/Navigation/BottomNav/BottomNav3"
+import Tabs1 from "./components/Navigation/Tabs/Tabs1"
+import Tabs2 from "./components/Navigation/Tabs/Tabs2"
+import Tabs3 from "./components/Navigation/Tabs/Tabs3"
+import Tabs4 from "./components/Navigation/Tabs/Tabs4"
 
 
 function App() {
 
   return (
     <>
-      <SimpleBottomNavigation/>
-      <LabelBottomNavigation/>
-      <FixedBottomNavigation/>
+      <Tabs3/>
+      <Tabs4/>
     </>
   )
 }
