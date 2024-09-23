@@ -15,13 +15,14 @@ import Tabs2 from "./components/Navigation/Tabs/Tabs2"
 import Tabs3 from "./components/Navigation/Tabs/Tabs3"
 import Tabs4 from "./components/Navigation/Tabs/Tabs4"
 import Breadcrumbs1 from "./components/Navigation/Breadcrumbs/Breadcrumbs1"
+import LandingPage from "./components/Landing Page/LandingPage"
 
 
 function App() {
 
   return (
     <>
-      <Breadcrumbs1/>
+      <LandingPage/>
     </>
   )
 }
