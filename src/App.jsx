@@ -15,16 +15,17 @@ import Tabs2 from "./components/Navigation/Tabs/Tabs2"
 import Tabs3 from "./components/Navigation/Tabs/Tabs3"
 import Tabs4 from "./components/Navigation/Tabs/Tabs4"
 import Breadcrumbs1 from "./components/Navigation/Breadcrumbs/Breadcrumbs1"
-import LandingPage from "./components/Landing Page/LandingPage"
-
+import React from 'react';
+import { Provider } from 'react-redux';
+import store from './redux/store';
+import LandingPage from './components/LandingPage/LandingPage';
 
 function App() {
-
   return (
-    <>
+    <Provider store={store}>
       <LandingPage/>
-    </>
-  )
+    </Provider>
+  );
 }
 
-export default App
+export default App;
