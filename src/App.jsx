@@ -17,11 +17,12 @@ import Tabs4 from "./components/Navigation/Tabs/Tabs4";
 import Breadcrumbs1 from "./components/Navigation/Breadcrumbs/Breadcrumbs1";
 import LandingPage from "./components/Landing Page/LandingPage";
 import Pagination1 from "./components/Navigation/Pagination/Pagination1";
+import FilterComponent from "./components/Filter/Filter1";
 
 function App() {
   return (
     <>
-      <Pagination1 />
+      <FilterComponent />
     </>
   );
 }
